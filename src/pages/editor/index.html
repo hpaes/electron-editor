@@ -2,10 +2,12 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <title>Electron Editor</title>
+    <title id="title">Electron Editor</title>
     <link rel="stylesheet" href="./styles.css" type="text/css" />
   </head>
   <body>
-    <textarea id="text"></textarea>
+    <textarea id="text" onkeyup="handleChangeText()"></textarea>
+
+    <script src="./scripts.js"></script>
   </body>
 </html>
